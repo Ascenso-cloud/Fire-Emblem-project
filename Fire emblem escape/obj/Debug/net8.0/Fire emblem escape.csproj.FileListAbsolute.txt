@@ -1,0 +1,14 @@
+D:\Trials Proyecto\Fire emblem escape\bin\Debug\net8.0\Fire emblem escape.exe
+D:\Trials Proyecto\Fire emblem escape\bin\Debug\net8.0\Fire emblem escape.deps.json
+D:\Trials Proyecto\Fire emblem escape\bin\Debug\net8.0\Fire emblem escape.runtimeconfig.json
+D:\Trials Proyecto\Fire emblem escape\bin\Debug\net8.0\Fire emblem escape.dll
+D:\Trials Proyecto\Fire emblem escape\bin\Debug\net8.0\Fire emblem escape.pdb
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.GeneratedMSBuildEditorConfig.editorconfig
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.AssemblyInfoInputs.cache
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.AssemblyInfo.cs
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.csproj.CoreCompileInputs.cache
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.dll
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\refint\Fire emblem escape.dll
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.pdb
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\Fire emblem escape.genruntimeconfig.cache
+D:\Trials Proyecto\Fire emblem escape\obj\Debug\net8.0\ref\Fire emblem escape.dll
