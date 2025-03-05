@@ -1,0 +1,11 @@
+El Proyecto se puede ejecutar en visual studio code. Debido a que utilice emojis para imprimir el laberinto,obstaculos y jugadores se recomienda no usar la consola de debug.
+
+Lo mas importante a conocer es que cada pantalla de dialogo se salta con cualquier tecla . Para mover el personaje se dispone del Sistema clasico WASD. En el caso de ejecutar algun ataque contra cualquier enemigo o contra el otro jugador se precisa de estar en una casilla adyacente al objetivo y presionar E. En caso de no estar en una casilla adyacente no se realizara ninguna accion. Se dispone de 3 movimientos por turno para cada jugador, excepto en casos especiales (la habilidad de uno de los personajes es tener un movimiento extra)
+
+El juego esta fuertemente inspirado en la saga de videojuegos de Fire emblem de intelligent systems. Todos los personajes y referencias a lugares proviene de alli. Ya un poco fuera del tema los invito a probar algunas de sus entregas.
+
+A la hora de generar el laberinto cree una clase cell que contenia un bool que marcaba si las celdas estaban visitadas. Inicializo una matriz de celdas de un tamano que depende de la eleccion del usuario como no visitadas. Luego selecciono una direccion aleatoria y si no esta visitada me muevo en esa direccion y asi hasta que todo este visitado. Luego en el metodo renderer creamos una matriz de 2xm+1 (m = tamano de la matriz de cell creada anteriormente). Inicializamos la matriz que tambien es de cell con su sprite ( cell contiene un string)
+de pared.Luego mediante visitamos el laberinto generado con la matriz anterior revisamos cada vecino de la celda 2*i+1,2*j+1 (vecinos marcados con bool para cada direccion) y si visitamos ese lado cambiamos la pared que se interpone entre ellos por el emoji de espacio.Luego a la hora de generar los obstaculos recorro cada celda de la matriz grande y genero un numero aleatorio cada vez que pase por un emoji de espacio. Si el resto de ese numero al dividirlo entre 100 es menor que 20,genero un obstaculo en ese lugar en dependencia del resto. Ya lo demas es bastante intuitivo.
+
+En mi experiencia personal fue bastante agotador encontrar el algoritmo para generar el laberinto, incluso me hizo reiniciar el proyecto en par de ocasiones. 
+Sin mas que decir.Disfruten de fire emblem escape
